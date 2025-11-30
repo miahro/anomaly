@@ -255,3 +255,5 @@ dependencies:
   - zlib-ng=2.3.1
   - zstandard=0.25.0
   - zstd=1.5.7
+  - pip:
+      - fmiopendata==0.5.0

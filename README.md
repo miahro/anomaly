@@ -59,6 +59,18 @@ git commit -m "Update Conda environment"
 git push origin main
 ```
 
+### Notes on conda vs pip
+
+The environment is managed primarily with `conda` (using the `conda-forge` channel).
+Some packages that are not available on conda (e.g. `fmiopendata`) are installed via `pip` **inside** the `anomaly` environment.
+
+To ensure `pip` installs into the active conda environment, this project uses:
+
+```bash
+conda activate anomaly
+python -m pip install <package>
+
+
 ## **License**
 This project is released under the MIT License. See `LICENSE` for details.
 
