@@ -66,4 +66,4 @@ git push origin main
 ## **License**
 This project is released under the MIT License. See `LICENSE` for details.
 
-[LICENSE]()
+[LICENSE](LICENSE)
