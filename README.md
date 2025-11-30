@@ -11,21 +11,17 @@
 
 ### Initial Installation
 
-Clone the repository and install dependencies:
+1. Clone the repository and install dependencies:
 
 ```bash
 git clone git@github.com:miahro/anomaly.git
 cd anomaly
 ```
 
-1. Pull the latest version of the repo:
-```bash
-git pull origin main
-```
 
 2. Create and activate the Conda environment:
 ```bash
-conda create -n anomaly python=3.10
+conda env create -f environment.yml
 conda activate anomaly
 ```
 
